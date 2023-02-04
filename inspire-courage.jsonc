@@ -1,0 +1,20 @@
+/**
+ * This should work - but currently doesn't. 1 sp for anyone who tells me why.
+ */
+{
+  "effects": [
+    {
+      "affects": "allies",
+      "events": ["enter"],
+      "uuid": "Compendium.pf2e.spell-effects.beReeFroAx24hj83"
+    }
+  ],
+  "key": "Aura",
+  "radius": 60,
+  "slug": "inspire-courage",
+  "traits": ["emotion", "mental", "enchantment"],
+  "colors": {
+    "border": "#00FF00",
+    "fill": "#00FF00"
+  }
+}
