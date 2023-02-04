@@ -8,7 +8,6 @@ async function applyEffectOrRefresh(actors, effect) {
       (e) => e.flags.core?.sourceId === effect
     );
     if (existing) {
-      console.log(existing);
       await existing.delete();
     }
     await actor.createEmbeddedDocuments("Item", [source]);
