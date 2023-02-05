@@ -1,0 +1,88 @@
+{
+  "name": "One Round of Courage",
+  "type": "effect",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "source": {
+      "value": ""
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "effects": [
+          {
+            "affects": "allies",
+            "events": [
+              "enter"
+            ],
+            "uuid": "Compendium.pf2e.spell-effects.beReeFroAx24hj83"
+          }
+        ],
+        "key": "Aura",
+        "radius": 60,
+        "slug": "inspire-courage",
+        "traits": [
+          "emotion",
+          "mental",
+          "enchantment"
+        ],
+        "colors": {
+          "border": "#00FF00",
+          "fill": "#00FF00"
+        }
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.815,
+      "lastMigration": null
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "sustained": false,
+      "expiry": "turn-start"
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "target": null,
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.L3N3rQNLPSYPQpxX"
+    },
+    "exportSource": {
+      "world": "pathfinder-2e",
+      "system": "pf2e",
+      "coreVersion": "10.291",
+      "systemVersion": "4.6.8"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.8",
+    "coreVersion": "10.291",
+    "createdTime": 1675559832274,
+    "modifiedTime": 1675561203489,
+    "lastModifiedBy": "xz2zwZeovcgKyOir"
+  }
+}
